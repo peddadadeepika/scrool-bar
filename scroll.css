@@ -1,0 +1,39 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ }
+ .box{
+    height: 550px;
+    width: 70%;
+    border: 2px solid gray;
+    padding: 10px;
+
+display: flex;
+overflow-y: hidden;
+
+}
+.deepu{
+    gap: 10px;
+    display: flex;
+}
+.div1{
+    content: "";
+    height: 550px;
+    width: 200px;
+    background-color: aqua;
+}
+.div2{
+    content: "";
+    height: 550px;
+    width: 200px;
+margin-top: 50px;
+overflow: hidden;
+    background-color: blueviolet;
+}
